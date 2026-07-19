@@ -717,3 +717,48 @@ body {
     width: 240px;
   }
 }
+
+@media (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+    padding: 0 10px;
+  }
+
+  /* BOOKING PAGE FIX */
+  .booking-container,
+  .booking-actions,
+  .section-header {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 0.85rem;
+    padding: 0 10px;
+    line-height: 1.5;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn-action {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 0.75rem;
+  }
+
+  .btn-container {
+    gap: 12px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
